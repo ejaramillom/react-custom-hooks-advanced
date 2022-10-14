@@ -7,7 +7,11 @@ useCallback is a React Hook that lets you cache a function definition between re
 
 # Usage
 
-    Skipping re-rendering of components
-    Updating state from a memoized callback
-    Preventing an Effect from firing too often
-    Optimizing a custom Hook 
+  Skipping re-rendering of components
+  Updating state from a memoized callback
+  Preventing an Effect from firing too often
+  Optimizing a custom Hook 
+
+# indirect function binding
+
+https://academind.com/tutorials/function-bind-event-execution
