@@ -55,6 +55,9 @@ function App() {
     );
   }, [fetchTasks]);
 
+  // one could avoid using useCallback by not passing external dependencies
+  // to the functions
+
   const taskAddHandler = (task) => {
     setTasks((prevTasks) => prevTasks.concat(task));
   };
